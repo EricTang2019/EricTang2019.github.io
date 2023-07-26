@@ -18,9 +18,11 @@ I will join Software and Societal Systems Department at CMU as a Ph.D student in
 
 # Service
 + Reviewer: PPAI 2023 (workshop of AAAI)
+
 # Teaching
 + 2021 Fall: CS 33400 Discrete Mathematics and Structures, PKU (TA)
 + 2022 Fall: CS 33400 Discrete Mathematics and Structures, PKU (TA)
+
 # More About Me
 I love many kinds of sports, including basketball, badminton, jogging (also some track events) and outdoor biking, yet I'm not good at all of them. I'm a big fan of Stephen Curry and Golden State Warriors.
 I love reading, especially books about social science and history.
