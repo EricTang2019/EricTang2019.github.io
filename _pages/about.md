@@ -12,7 +12,7 @@ My name is Jingwu Tang (唐静吾). I am a first-year PhD student in the [Softwa
 
 # Publications
 + **A Context-Integrated Transformer-Based Neural Network for Auction Design**. <br>Zhijian Duan, Jingwu Tang, Yutong Yin, Zhe Feng, Xiang Yan, Manzil Zaheer, and Xiaotie Deng. **ICML, 2022**. [arXiv](https://arxiv.org/abs/2201.12489).
-+ **Generating Private Synthetic Data with Genetic Algorithms**. <br>Terrance Liu\* , Jingwu Tang\* , Giuseppe Vietri\* , Zhiwei Steven Wu. **ICML, 2023**. [arXiv](https://arxiv.org/abs/2306.03257).
++ **Generating Private Synthetic Data with Genetic Algorithms**. <br>Terrance Liu\*, Jingwu Tang\*, Giuseppe Vietri\*, Zhiwei Steven Wu. **ICML, 2023**. [arXiv](https://arxiv.org/abs/2306.03257).
 
 # Service
 + Reviewer: PPAI 2023 (workshop of AAAI)
