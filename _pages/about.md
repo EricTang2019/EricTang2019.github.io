@@ -8,23 +8,22 @@ redirect_from:
   - /about.html
 ---
 
-My name is Jingwu Tang (唐静吾). I am a second-year PhD student in [School of Computer Science](https://www.cs.cmu.edu/) at [Carnegie Mellon University](https://www.cmu.edu/), where I am fortunate to be advised by Prof. [Steven Wu](https://zstevenwu.com/) and Prof. [Fei Fang](https://feifang.info/). Before that, I obtained my bachelor's degree at Turing class, [Peking University](https://www.pku.edu.cn/). During my undergraduate study, I was fortunate to be advised by Prof. [Xiaotie Deng](https://cfcs.pku.edu.cn/english/people/faculty/xiaotiedeng/index.htm). My research interest lies in machine learning, game theory and algorithms. Most recently, I am working on game learning and sequential decision making.
+My name is Jingwu Tang (唐静吾). I am a second-year PhD student in [School of Computer Science](https://www.cs.cmu.edu/) at [Carnegie Mellon University](https://www.cmu.edu/), where I am fortunate to be advised by Prof. [Steven Wu](https://zstevenwu.com/) and Prof. [Fei Fang](https://feifang.info/). Before that, I obtained my bachelor's degree at Turing class, [Peking University](https://www.pku.edu.cn/). During my undergraduate study, I was fortunate to be advised by Prof. [Xiaotie Deng](https://cfcs.pku.edu.cn/english/people/faculty/xiaotiedeng/index.htm). My research interest lies in machine learning, game theory and algorithms. 
 
 # Publications
++ **Multi-Agent Imitation Learning: Value is Easy, Regret is Hard**. <br>Jingwu Tang, Gokul Swamy, Fei Fang, Zhiwei Steven Wu. **NeurIPS, 2024**. [arXiv](https://https://arxiv.org/abs/2406.04219).
 + **Generating Private Synthetic Data with Genetic Algorithms**. <br>Terrance Liu\*, Jingwu Tang\*, Giuseppe Vietri\*, Zhiwei Steven Wu. **ICML, 2023**. [arXiv](https://arxiv.org/abs/2306.03257).
 + **A Context-Integrated Transformer-Based Neural Network for Auction Design**. <br>Zhijian Duan, Jingwu Tang, Yutong Yin, Zhe Feng, Xiang Yan, Manzil Zaheer, and Xiaotie Deng. **ICML, 2022**. [arXiv](https://arxiv.org/abs/2201.12489).
 
 
 # Service
-+ Reviewer: PPAI 2023 (workshop of AAAI), AAAI 2024.
++ Reviewer: AAAI 2024, NeurIPS 2024, ICLR 2025
++ Workshop Reviewer: AAAI 2023 Workshop PPAI, ICML 2024 Workshop MHFAIA, ICML 2024 Workshop ARLET, ICML 2024 Workshop RLControlTheory.
 
 # Teaching
-+ 2021 Fall: CS 33400 Discrete Mathematics and Structures, PKU (TA)
-+ 2022 Fall: CS 33400 Discrete Mathematics and Structures, PKU (TA)
++ 2024 Fall: CMU [18734/17731 Foundations of Privacy]() (TA)
++ 2022 Fall: PKU CS 33400 Discrete Mathematics and Structures (TA)
++ 2021 Fall: PKU CS 33400 Discrete Mathematics and Structures (TA)
 
-# More About Me
-I love many kinds of sports, including basketball, badminton, jogging (also some track events) and outdoor biking, yet I'm not good at all of them. I'm a big fan of Stephen Curry and Golden State Warriors.
-I love reading, especially books about social science and history.
-In my spare time, I like to engage in social service that may help someone in need. I spent two years in a school club that helps students in underdeveloped areas of China.
-
+# Others
 My [Erdős number](https://en.wikipedia.org/wiki/Erd%C5%91s_number) is 3.
