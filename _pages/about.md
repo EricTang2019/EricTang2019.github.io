@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-My name is Jingwu Tang (唐静吾). I am a first-year PhD student in [School of Computer Science](https://www.cs.cmu.edu/) at [Carnegie Mellon University](https://www.cmu.edu/), where I am fortunate to be advised by Prof. [Steven Wu](https://zstevenwu.com/) and Prof. [Fei Fang](https://feifang.info/). Before that, I obtained my bachelor's degree at Turing class, [Peking University](https://www.pku.edu.cn/). During my undergraduate study, I was fortunate to be advised by Prof. [Xiaotie Deng](https://cfcs.pku.edu.cn/english/people/faculty/xiaotiedeng/index.htm). My research interest lies in machine learning, game theory and algorithms. Most recently, I am working on game learning and sequential decision making.
+My name is Jingwu Tang (唐静吾). I am a second-year PhD student in [School of Computer Science](https://www.cs.cmu.edu/) at [Carnegie Mellon University](https://www.cmu.edu/), where I am fortunate to be advised by Prof. [Steven Wu](https://zstevenwu.com/) and Prof. [Fei Fang](https://feifang.info/). Before that, I obtained my bachelor's degree at Turing class, [Peking University](https://www.pku.edu.cn/). During my undergraduate study, I was fortunate to be advised by Prof. [Xiaotie Deng](https://cfcs.pku.edu.cn/english/people/faculty/xiaotiedeng/index.htm). My research interest lies in machine learning, game theory and algorithms. Most recently, I am working on game learning and sequential decision making.
 
 # Publications
 + **Generating Private Synthetic Data with Genetic Algorithms**. <br>Terrance Liu\*, Jingwu Tang\*, Giuseppe Vietri\*, Zhiwei Steven Wu. **ICML, 2023**. [arXiv](https://arxiv.org/abs/2306.03257).
