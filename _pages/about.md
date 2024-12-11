@@ -26,6 +26,9 @@ My name is Jingwu Tang (唐静吾). I am a second-year PhD student in [School of
 + 2021 Fall: PKU CS 33400 Discrete Mathematics and Structures (TA)
 
 # Others
-I strongly recommend everyone to see the special collections in the archive of universities! For example, I got a chance to see&touch the transcript and photo John Nash used for his Princeton application.
-![Profile Picture](images/Nash_front.jpeg "This is my profile picture")
+I highly recommend everyone to explore the special collections in university archives! For instance, I had the opportunity to see and even handle the transcript and photograph John Nash submitted with his Princeton application.
+
 My [Erdős number](https://en.wikipedia.org/wiki/Erd%C5%91s_number) is 3.
+
+<img src="images/Nash_front.jpg" alt="Transcript of John Nash" title="Transcript of John Nash" width="300">
+<img src="images/Nash_back.jpeg" alt="Seems that he does not like it" title="Seems that he does not like it" width="300">
