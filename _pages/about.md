@@ -14,6 +14,9 @@ My name is Jingwu Tang (唐静吾). I am a second-year PhD student in [School of
 + **Multi-Agent Imitation Learning: Value is Easy, Regret is Hard**. <br>Jingwu Tang, Gokul Swamy, Fei Fang, Zhiwei Steven Wu. **NeurIPS, 2024**. [arXiv](https://arxiv.org/abs/2406.04219).
 + **Generating Private Synthetic Data with Genetic Algorithms**. <br>Terrance Liu\*, Jingwu Tang\*, Giuseppe Vietri\*, Zhiwei Steven Wu. **ICML, 2023**. [arXiv](https://arxiv.org/abs/2306.03257).
 + **A Context-Integrated Transformer-Based Neural Network for Auction Design**. <br>Zhijian Duan, Jingwu Tang, Yutong Yin, Zhe Feng, Xiang Yan, Manzil Zaheer, and Xiaotie Deng. **ICML, 2022**. [arXiv](https://arxiv.org/abs/2201.12489).
++ **Persuasive Prediction via Decision Calibration**. <br>**Jingwu Tang**\*, Jiahao Zhang\*, Fei Fang, Zhiwei Steven Wu. *Under review*.
++ **Dimension-Free Decision Calibration for Nonlinear Loss Functions (Alphabetical)**. <br>**Jingwu Tang**, Jiayun Wu, Zhiwei Steven Wu, Jiahao Zhang. *Under review*.
++ **RescueLens: LLM-Powered Triage and Action on Volunteer Feedback for Food Rescue**. <br>Naveen Janaki Raman, **Jingwu Tang**, Zhiyu Chen, Zheyuan Ryan Shi, Sean Hudson, Ameesh Kapoor, Fei Fang. **Innovative Applications of AI Conference (IAAI), 2026**.
 
 
 # Service
