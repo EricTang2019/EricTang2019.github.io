@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-My name is Jingwu Tang (唐静吾). I am a second-year PhD student in [School of Computer Science](https://www.cs.cmu.edu/) at [Carnegie Mellon University](https://www.cmu.edu/), where I am fortunate to be advised by Prof. [Steven Wu](https://zstevenwu.com/) and Prof. [Fei Fang](https://feifang.info/). Before that, I obtained my bachelor's degree at Turing class, [Peking University](https://www.pku.edu.cn/). During my undergraduate study, I was fortunate to be advised by Prof. [Xiaotie Deng](https://cfcs.pku.edu.cn/english/people/faculty/xiaotiedeng/index.htm). My research interest lies in reinforcement learning, imitation learning and multi-calibration. Recently, I am interested in on-policy distillation of LLMs.
+My name is Jingwu Tang (唐静吾). I am a third-year PhD student in [School of Computer Science](https://www.cs.cmu.edu/) at [Carnegie Mellon University](https://www.cmu.edu/), where I am fortunate to be advised by Prof. [Steven Wu](https://zstevenwu.com/) and Prof. [Fei Fang](https://feifang.info/). Before that, I obtained my bachelor's degree at Turing class, [Peking University](https://www.pku.edu.cn/). During my undergraduate study, I was fortunate to be advised by Prof. [Xiaotie Deng](https://cfcs.pku.edu.cn/english/people/faculty/xiaotiedeng/index.htm). My research interest lies in reinforcement learning, imitation learning and multi-calibration. Recently, I am interested in theoretical aspect of LLM post-training.
 
 # Publications
 + **Provably Label-Efficient Conformal Prediction**. <br>Andrew Ilyas, Joonhyuk Ko, **Jingwu Tang**, Zhiwei Steven Wu, Jiahao Zhang. (Alphabetical) *Under review*.
