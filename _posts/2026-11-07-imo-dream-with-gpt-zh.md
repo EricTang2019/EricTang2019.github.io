@@ -1,5 +1,5 @@
 ---
-title: 跟着 LLM 老师重拾我的 IMO 梦
+title: 跟着 LLM 老师重拾我高中时的 IMO 梦
 subtitle: 关于未来教育、人类推理与模型推理的一些思考
 description: "让 GPT-6 Astra 当竞赛老师，开开心心做题，争取超过高中的自己！"
 date: 2026-11-07 12:00:00 -0500

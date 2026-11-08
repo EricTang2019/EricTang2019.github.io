@@ -1,5 +1,5 @@
 ---
-title: Revisiting My IMO Dream with an LLM Tutor
+title: Revisiting My High School IMO Dream with an LLM Tutor
 subtitle: Thoughts on the Future of Education and Human vs. Model Reasoning
 description: "Having fun with GPT-6 Astra as my olympiad math tutor—and trying to outdo my high-school self!"
 date: 2026-11-07 12:00:00 -0500
