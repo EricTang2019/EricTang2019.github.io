@@ -5,6 +5,9 @@ url: http://localhost:4000
 # Preview does not need remote GitHub metadata.
 github: false
 
+# Local previews must not load the external counter or record visits.
+page_views: false
+
 analytics:
   provider: false
 

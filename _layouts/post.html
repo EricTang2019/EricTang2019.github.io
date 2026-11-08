@@ -2,13 +2,23 @@
 layout: folio
 ---
 
+{% assign show_page_views = false %}
+{% if site.page_views and page.page_views != false and page.published != false %}
+  {% assign show_page_views = true %}
+{% endif %}
+
 <article class="blog-post">
   <a class="post-back" href="{{ '/blog/' | relative_url }}">{% if page.lang == 'zh-CN' %}返回博客{% else %}Back to Blog{% endif %}</a>
   <header class="post-header">
     <h1>{{ page.title | escape }}</h1>
     {% if page.subtitle %}<p class="post-subtitle">{{ page.subtitle | escape }}</p>{% endif %}
     <div class="post-meta">
-      <time datetime="{{ page.date | date_to_xmlschema }}">{% if page.lang == 'zh-CN' %}{{ page.date | date: '%Y年%-m月%-d日' }}{% else %}{{ page.date | date: '%B %-d, %Y' }}{% endif %}</time>
+      <div class="post-meta-details">
+        <time datetime="{{ page.date | date_to_xmlschema }}">{% if page.lang == 'zh-CN' %}{{ page.date | date: '%Y年%-m月%-d日' }}{% else %}{{ page.date | date: '%B %-d, %Y' }}{% endif %}</time>
+        {% if show_page_views %}
+        <span id="busuanzi_container_page_pv" class="post-views" style="display:none"><span id="busuanzi_value_page_pv"></span>{% if page.lang == 'zh-CN' %} 次浏览{% else %} views{% endif %}</span>
+        {% endif %}
+      </div>
       {% if page.translation_url %}
       <nav class="language-switch" aria-label="{% if page.lang == 'zh-CN' %}语言{% else %}Language{% endif %}">
         <span aria-current="page">{% if page.lang == 'zh-CN' %}中文{% else %}English{% endif %}</span>
@@ -22,3 +32,7 @@ layout: folio
     {{ content }}
   </div>
 </article>
+
+{% if show_page_views %}
+<script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+{% endif %}

@@ -1,6 +1,6 @@
 # Jingwu Tang’s personal website
 
-An original, restrained academic homepage built with Jekyll and plain CSS. The homepage, CV, blog, and error page share the `folio` layout. They need no browser JavaScript, external font service, or CSS framework.
+An original, restrained academic homepage built with Jekyll and plain CSS. The homepage, CV, blog, and error page share the `folio` layout. Content and navigation work without JavaScript, external fonts, or a CSS framework. Published articles optionally load a small script for page-view counts.
 
 ## Local preview
 
@@ -31,6 +31,8 @@ Keep drafts in the ignored `.private/blog/` directory. Finished posts belong in 
 For English posts, set `lang: en`. A Chinese translation uses `lang: zh-CN`, `list_in_blog: false`, and its own `permalink`, such as `/blog/slug/zh/`. Each version declares `translation_url`, `translation_lang`, and `translation_label` to link to the other version. Dates use America/New_York. Posts dated in the future are omitted from normal builds.
 
 Drafts are excluded from the public source and build. Publish a draft only when explicitly requested.
+
+Published articles show page-view counts beside the date using [Busuanzi](https://busuanzi.ibruce.info/). Counts start when tracking is enabled, and each language URL has its own count. These are page views, not unique readers; repeat visits can increase the total. The counter stays hidden until the service responds, and article content remains available if JavaScript or the service is unavailable. `_config.dev.yml` disables tracking for local previews. Set `page_views: false` on an individual post or in site configuration to disable it.
 
 ## CV source and public export
 
