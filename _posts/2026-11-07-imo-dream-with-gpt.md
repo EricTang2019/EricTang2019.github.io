@@ -19,7 +19,7 @@ If you’re not familiar with the IMO, I’ve added a [quick introduction at the
 
 Earlier this week, I had a slightly odd idea: why not ask an LLM—GPT-6 Astra—to teach me olympiad combinatorics?
 
-In high school, I dreamed of winning a gold medal at the International Mathematical Olympiad (IMO). That didn’t happen. I wasn’t a standout among the olympiad students around me. I’d had some training, though it was less systematic than what many of my Chinese peers had (you wouldn’t believe how much olympiad training goes on in China). My best result was a silver medal at the Chinese Mathematical Olympiad (CMO), and combinatorics was my weakest subject.
+It’s been eight years since I last competed in a math olympiad. In high school, I dreamed of winning a gold medal at the International Mathematical Olympiad (IMO). That didn’t happen. I wasn’t a standout among the olympiad students around me. I’d had some training, though it was less systematic than what many of my Chinese peers had (you wouldn’t believe how much olympiad training goes on in China). My best result was a silver medal at the Chinese Mathematical Olympiad (CMO), and combinatorics was my weakest subject.
 
 Even with some results to show for it, I often felt pretty defeated. I thought I simply wasn’t smart enough. Other people my age seemed to come up with beautiful, unexpected ideas that never occurred to me.
 
