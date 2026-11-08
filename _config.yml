@@ -13,11 +13,11 @@ name                     : &name "Jingwu Tang"
 description              : &description "PhD student at Carnegie Mellon University"
 url                      : https://tangjingwu.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "EricTang2019.github.io"
+repository               : "EricTang2019/EricTang2019.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
-future                   : true
+future                   : false
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
 talkmap_link             : false #change to true to add link to talkmap on talks page
 comments:
@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Jingwu Tang"
-  avatar           : "profile_2.jpg"
+  avatar           : "portrait.png"
   bio              : "PhD student at Carnegie Mellon University"
   location         : "Pittsburgh, US"
   employer         :
@@ -123,6 +123,31 @@ include:
   - _pages
   - files
 exclude:
+  - AGENTS.md
+  - cv.tex
+  - .cv-source
+  - .private
+  - scripts
+  # Retain inherited examples in source, but omit them from the personal site.
+  - _portfolio
+  - _talks
+  - _drafts
+  - markdown_generator
+  - talkmap
+  - talkmap.py
+  - talkmap.ipynb
+  - CHANGELOG.md
+  - CONTRIBUTING.md
+  - _pages/portfolio.html
+  - _pages/talks.html
+  - _pages/teaching.html
+  - _pages/non-menu-page.md
+  - _pages/terms.md
+  - _pages/category-archive.html
+  - _pages/tag-archive.html
+  - _pages/year-archive.html
+  - _pages/talkmap.html
+  - _pages/page-archive.html
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache
@@ -196,12 +221,16 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
+      layout: post
+      page_class: post-page
+      permalink: /blog/:title/
+      lang: en
+      list_in_blog: true
+      author_profile: false
+      read_time: false
+      comments: false
+      share: false
+      related: false
   # _pages
   - scope:
       path: ""
@@ -255,7 +284,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/New_York
 
 
 # Plugins

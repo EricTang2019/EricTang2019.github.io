@@ -1,0 +1,26 @@
+---
+layout: folio
+title: Blog
+permalink: /blog/
+page_class: blog-page
+description: "Writing by Jingwu Tang."
+author_profile: false
+---
+
+<h1>Blog</h1>
+{% assign blog_posts = site.posts | where: 'list_in_blog', true %}
+{% if blog_posts.size > 0 %}
+<ol class="blog-list">
+  {% for post in blog_posts %}
+  <li class="blog-list-item">
+    <article>
+      <h2><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
+      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%B %-d, %Y' }}</time>
+      {% if post.description or post.excerpt %}<p>{{ post.description | default: post.excerpt | strip_html | strip_newlines | truncatewords: 45 }}</p>{% endif %}
+    </article>
+  </li>
+  {% endfor %}
+</ol>
+{% else %}
+<p class="blog-empty">No posts yet.</p>
+{% endif %}

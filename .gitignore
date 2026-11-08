@@ -1,2 +1,12 @@
 _site/
 
+# Private CV sources and local configuration. Only the public PDF belongs here.
+.cv-source
+.private/
+cv.tex
+Gemfile.lock
+.jekyll-cache/
+.sass-cache/
+.bundle/
+.DS_Store
+

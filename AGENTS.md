@@ -1,0 +1,16 @@
+# Personal website
+
+- The homepage uses the original `folio` layout, with plain CSS and Jekyll data files. Keep it compatible with GitHub Pages and usable without JavaScript.
+- Keep the design restrained, readable, responsive, and distinct from the research labs that inspired it.
+- Use a white background rather than cream or sage. Keep the full personal biography (including Peking University) in the first paragraph; the separate research paragraph must use the same font size, line height, and color. Favor readable metadata over tiny labels.
+- Avoid decorative section numbers, eyebrow labels, redundant captions, and editorial filler. Use direct headings and factual image captions. State the Erdős number directly.
+- The portrait is the user-supplied conservatory photo at `images/portrait.png`. Preserve the original image bytes and colors; use CSS cropping for the homepage rather than editing or regenerating the photograph.
+- Blog posts use `_layouts/post.html` and `/blog/`. English is the primary version; Chinese translations link back to it, with `list_in_blog: false` to avoid duplicate list entries. Keep article typography readable and navigation minimal. Drafts stay in ignored `.private/blog/`, outside the public build. Do not invent firsthand experiences or model results while drafting.
+- For long blog articles, use clear numbered chapters and subsections with compact line and paragraph spacing. Let the chapter headings separate the author's viewpoints; keep transition sentences as normal body text. These functional article numbers are distinct from decorative homepage labels.
+- The web CV's Experience section should contain only Amazon. Keep academic research roles in the full PDF CV, not the web overview.
+- The homepage's “Selected publications” section contains only these four papers, in order: Persuasive Prediction via Decision Calibration; ReproRepo; Dimension-Free Decision Calibration for Nonlinear Loss Functions; Multi-Agent Imitation Learning: Value is Easy, Regret is Hard. Use `selected: true` in publication data. Keep the full publication list in the PDF CV.
+- Omit Teaching from the homepage. Title the personal section “Others” and describe the note on Nash’s photograph as “interesting.” After the research interests, describe summer 2026 at Amazon working on self-distillation of large language models for hard reasoning tasks, rather than a separate “Recently” sentence.
+- The canonical CV is the user's Overleaf project, recorded in the **gitignored** `.cv-source` file. Do not use the old root `cv.tex` as the source of truth.
+- The local Overleaf working copy is `.private/overleaf-cv/` (gitignored). Update it, then run `python3 scripts/export-cv.py .private/overleaf-cv` to export `files/Jingwu_Tang_CV.pdf`. The public export omits the phone number and postal address; preserve those in the private source. The public PDF should use the user's current local date.
+- Never commit CV source files, Overleaf project URLs, credentials, local configuration, or generated preview files. Keep `.cv-source` and the old `cv.tex` ignored and excluded from Jekyll output.
+- The user requested local changes only. Do not push to GitHub or Overleaf, rewrite history, or change repository visibility without a subsequent explicit request.

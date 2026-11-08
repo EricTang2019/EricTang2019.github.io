@@ -2,6 +2,9 @@
 
 url: http://localhost:4000
 
+# Preview does not need remote GitHub metadata.
+github: false
+
 analytics:
   provider: false
 

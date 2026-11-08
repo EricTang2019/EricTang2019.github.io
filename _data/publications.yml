@@ -1,0 +1,54 @@
+# Publication details follow the canonical Overleaf CV.
+# NeurIPS 2026 for Persuasive Prediction was confirmed by Jingwu.
+- title: Persuasive Prediction via Decision Calibration
+  selected: true
+  authors: Jingwu Tang*, Jiahao Zhang*, Fei Fang, Zhiwei Steven Wu
+  venue: NeurIPS
+  year: 2026
+  url: https://arxiv.org/abs/2505.16141
+
+- title: "ReproRepo: Scaling Reproducibility Audits with GitHub Repository Issues"
+  selected: true
+  authors: Shanda Li, Qiuhong Anna Wei, Jingwu Tang, Valerie Chen, Nihar B Shah, Tim Dettmers, Yiming Yang, Ameet Talwalkar
+  venue: EMNLP
+  year: 2026
+  url: https://arxiv.org/abs/2606.18237
+
+- title: Provably Label-Efficient Conformal Prediction
+  authors: Andrew Ilyas, Joonhyuk Ko, Jingwu Tang, Zhiwei Steven Wu, Jiahao Zhang
+  note: Alphabetical author order
+  venue: ICML
+  year: 2026
+  url: https://proceedings.mlr.press/v306/ilyas26a.html
+
+- title: Dimension-Free Decision Calibration for Nonlinear Loss Functions
+  selected: true
+  authors: Jingwu Tang, Jiayun Wu, Zhiwei Steven Wu, Jiahao Zhang
+  note: Alphabetical author order
+  venue: ICLR
+  year: 2026
+  url: https://arxiv.org/abs/2504.15615
+
+- title: "RescueLens: LLM-Powered Triage and Action on Volunteer Feedback for Food Rescue"
+  authors: Naveen Janaki Raman, Jingwu Tang, Zhiyu Chen, Zheyuan Ryan Shi, Sean Hudson, Ameesh Kapoor, Fei Fang
+  venue: IAAI
+  year: 2026
+
+- title: "Multi-Agent Imitation Learning: Value is Easy, Regret is Hard"
+  selected: true
+  authors: Jingwu Tang, Gokul Swamy, Fei Fang, Zhiwei Steven Wu
+  venue: NeurIPS
+  year: 2024
+  url: https://arxiv.org/abs/2406.04219
+
+- title: Generating Private Synthetic Data with Genetic Algorithms
+  authors: Terrance Liu*, Jingwu Tang*, Giuseppe Vietri*, Zhiwei Steven Wu
+  venue: ICML
+  year: 2023
+  url: https://arxiv.org/abs/2306.03257
+
+- title: A Context-Integrated Transformer-Based Neural Network for Auction Design
+  authors: Zhijian Duan, Jingwu Tang, Yutong Yin, Zhe Feng, Xiang Yan, Manzil Zaheer, Xiaotie Deng
+  venue: ICML
+  year: 2022
+  url: https://arxiv.org/abs/2201.12489

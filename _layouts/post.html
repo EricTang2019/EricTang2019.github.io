@@ -1,0 +1,24 @@
+---
+layout: folio
+---
+
+<article class="blog-post">
+  <a class="post-back" href="{{ '/blog/' | relative_url }}">{% if page.lang == 'zh-CN' %}返回博客{% else %}Back to Blog{% endif %}</a>
+  <header class="post-header">
+    <h1>{{ page.title | escape }}</h1>
+    {% if page.subtitle %}<p class="post-subtitle">{{ page.subtitle | escape }}</p>{% endif %}
+    <div class="post-meta">
+      <time datetime="{{ page.date | date_to_xmlschema }}">{% if page.lang == 'zh-CN' %}{{ page.date | date: '%Y年%-m月%-d日' }}{% else %}{{ page.date | date: '%B %-d, %Y' }}{% endif %}</time>
+      {% if page.translation_url %}
+      <nav class="language-switch" aria-label="{% if page.lang == 'zh-CN' %}语言{% else %}Language{% endif %}">
+        <span aria-current="page">{% if page.lang == 'zh-CN' %}中文{% else %}English{% endif %}</span>
+        <a href="{{ page.translation_url | relative_url }}" lang="{{ page.translation_lang }}" hreflang="{{ page.translation_lang }}">{{ page.translation_label }}</a>
+      </nav>
+      {% endif %}
+    </div>
+    {% if page.translation_notice %}<p class="post-translation-note">{{ page.translation_notice | escape }}</p>{% endif %}
+  </header>
+  <div class="post-body">
+    {{ content }}
+  </div>
+</article>
