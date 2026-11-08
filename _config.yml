@@ -77,7 +77,7 @@ analytics:
   google:
     tracking_id          :
 
-# Display per-page Busuanzi counts on published blog posts.
+# Display per-page counts on published blog posts.
 page_views: true
 
 

@@ -32,7 +32,9 @@ For English posts, set `lang: en`. A Chinese translation uses `lang: zh-CN`, `li
 
 Drafts are excluded from the public source and build. Publish a draft only when explicitly requested.
 
-Published articles show page-view counts beside the date using [Busuanzi](https://busuanzi.ibruce.info/). Counts start when tracking is enabled, and each language URL has its own count. These are page views, not unique readers; repeat visits can increase the total. The counter stays hidden until the service responds, and article content remains available if JavaScript or the service is unavailable. `_config.dev.yml` disables tracking for local previews. Set `page_views: false` on an individual post or in site configuration to disable it.
+Published articles show page-view counts beside the date using [Vercount](https://www.vercount.one/). `assets/js/page-views.js` sends the canonical article URL explicitly, with query strings and fragments removed, so counting does not depend on a browser's referrer policy. Each language URL has its own count. These are page views, not unique readers; repeat visits can increase the total. The client stores no counter or visitor identifier in cookies or browser storage, and shows a number only after a successful server response. `_config.dev.yml` disables tracking for local previews; the script also skips previews on a different origin. Set `page_views: false` on an individual post or in site configuration to disable it.
+
+The earlier Busuanzi integration could split visits between an article URL and the site origin when browsers removed the referrer path. In migration testing, the new service did not import the old counts. Counts restart with the November 8, 2026 cutover; old visits already mixed into an origin-only count cannot be accurately assigned back to an article. No historical totals are manually invented or added.
 
 ## CV source and public export
 

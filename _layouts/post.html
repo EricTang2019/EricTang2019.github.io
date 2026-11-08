@@ -16,7 +16,7 @@ layout: folio
       <div class="post-meta-details">
         <time datetime="{{ page.date | date_to_xmlschema }}">{% if page.lang == 'zh-CN' %}{{ page.date | date: '%Y年%-m月%-d日' }}{% else %}{{ page.date | date: '%B %-d, %Y' }}{% endif %}</time>
         {% if show_page_views %}
-        <span id="busuanzi_container_page_pv" class="post-views" style="display:none">{% if page.lang != 'zh-CN' %}Views: {% endif %}<span id="busuanzi_value_page_pv"></span>{% if page.lang == 'zh-CN' %} 次浏览{% endif %}</span>
+        <span class="post-views" data-page-views hidden>{% if page.lang != 'zh-CN' %}Views: {% endif %}<span data-page-views-value></span>{% if page.lang == 'zh-CN' %} 次浏览{% endif %}</span>
         {% endif %}
       </div>
       {% if page.translation_url %}
@@ -34,5 +34,5 @@ layout: folio
 </article>
 
 {% if show_page_views %}
-<script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<script defer src="{{ '/assets/js/page-views.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
 {% endif %}
