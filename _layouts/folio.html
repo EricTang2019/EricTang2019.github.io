@@ -21,7 +21,7 @@
     <link rel="alternate" type="application/atom+xml" title="{{ site.title | escape }} — Blog" href="{{ '/feed.xml' | relative_url }}">
     <meta name="theme-color" content="#ffffff">
     <link rel="icon" href="{{ '/assets/images/monogram.svg' | relative_url }}" type="image/svg+xml">
-    <link rel="stylesheet" href="{{ '/assets/css/folio.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/folio.css' | relative_url }}?v={{ site.time | date: '%s' }}">
   </head>
   <body id="top">
     <a class="skip-link" href="#main">Skip to content</a>
